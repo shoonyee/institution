@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c98752d-d8ff-47f9-9ea1-8649cea009cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/institution/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/institution/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/css/app.2cf79ad6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/app.d03c5481.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/app.d03c5481.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/chunk-vendors.2d884afa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/chunk-vendors.2d884afa.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +58,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -77,6 +94,26 @@
       <workItem from="1724383529926" duration="5494000" />
       <workItem from="1724417068039" duration="3672000" />
       <workItem from="1724679533709" duration="2629000" />
+      <workItem from="1724683569568" duration="5164000" />
+      <workItem from="1724690738080" duration="35000" />
+      <workItem from="1724690804369" duration="63000" />
+      <workItem from="1724690880593" duration="135000" />
+      <workItem from="1724691029961" duration="60000" />
+      <workItem from="1724691160181" duration="622000" />
+      <workItem from="1724691980016" duration="308000" />
+      <workItem from="1724692389042" duration="15000" />
+      <workItem from="1724692425794" duration="20000" />
+      <workItem from="1724692460524" duration="32000" />
+      <workItem from="1724692536821" duration="14000" />
+      <workItem from="1724692569202" duration="210000" />
+      <workItem from="1724692841427" duration="1979000" />
+      <workItem from="1724694970393" duration="765000" />
+      <workItem from="1724695823754" duration="90000" />
+      <workItem from="1724696082782" duration="911000" />
+      <workItem from="1724697080919" duration="1269000" />
+      <workItem from="1724698948923" duration="134000" />
+      <workItem from="1724699182082" duration="99000" />
+      <workItem from="1724699314265" duration="793000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,11 @@
-# create Django + Vue (one vue app)
+# create Django + Vue (SPA)
+## Django: 
+paths have /api/ act as API
+others re_path to application.html which has vue app mounted.
+## Vue:
+vue router handles all the paths
+axios to fetch data from /api/ 
+built to _static_ directory
 
 ### Create Virtual Enviroment and Django Project
 ```
@@ -81,10 +88,14 @@ Create _application.html_ file in the template directory
 #### map the url to our vue application in _urls.py_ 
 ```python
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include, re_path
 from django.views.generic import TemplateViewurlpatterns = [
     path('admin/', admin.site.urls),
     path("",
+        TemplateView.as_view(template_name="application.html"),
+        name="app",
+    ),
+    re_path(r'^.*$',
         TemplateView.as_view(template_name="application.html"),
         name="app",
     ),
@@ -128,6 +139,38 @@ STATICFILES_DIRS = [
   BASE_DIR / "static",
 ]
 ```
+
+### Use vue router and axios
+vueapp
+#### install router
+```
+npm i vue-router@next
+```
+
+#### Add a routing directory & configuration file
+
+/src/router/index.js
+
+#### install axios
+```
+npm i axios
+```
+_main.js_
+```
+axios.defaults.baseURL = "http://localhost:8000"
+app.config.globalProperties.$http = axios
+```
+#### Fix CORE issue
+```
+python -m pip install django-cors-headers
+```
+update _settings.py_ 
+installed app: 
+    add 'corsheaders',
+middleware: 
+    add "corsheaders.middleware.CorsMiddleware", "django.middleware.common.CommonMiddleware",
+add:
+CORS_ORIGIN_ALLOW_ALL = True
 
 ### Run dev
 ```
