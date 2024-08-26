@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c98752d-d8ff-47f9-9ea1-8649cea009cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vueapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueapp/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueapp/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/institution/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/institution/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vueapp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +75,8 @@
       <workItem from="1724381714825" duration="418000" />
       <workItem from="1724383092148" duration="345000" />
       <workItem from="1724383529926" duration="5494000" />
+      <workItem from="1724417068039" duration="3672000" />
+      <workItem from="1724679533709" duration="2629000" />
     </task>
     <servers />
   </component>

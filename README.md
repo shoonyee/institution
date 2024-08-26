@@ -128,3 +128,11 @@ STATICFILES_DIRS = [
   BASE_DIR / "static",
 ]
 ```
+
+### Run dev
+```
+python manage.py runserver
+```
+```
+npm run serve    
+```
